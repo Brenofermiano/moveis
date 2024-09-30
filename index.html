@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Móveis</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">Ellen | Móveis</a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#choose">About</a></li>
+          <li class="link"><a href="#craft">Craft</a></li>
+          <li class="link"><a href="#testimonial">Testimonials</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+        <div class="nav__actions">
+          <span><i class="ri-search-fill"></i></span>
+          <span><i class="ri-user-fill"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Torne seu interior mais minimalista & moderno</h1>
+        <p>
+          Transforme seu ambiente com panto em algo muito mais minimalista e
+          moderno com facilidade e rapidez
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Pesquise" />
+          <button><i class="ri-search-line"></i></button>
+        </form>
+        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+      </div>
+    </header>
+    <section class="section__container choose__container" id="choose">
+      <img class="choose__bg" src="img/dot-bg.png" alt="bg" />
+
+      <div class="choose__content">
+        <h2 class="section__header">Porque escolher-nos</h2>
+        <p class="section__subheader">
+          Experimente criatividade e experiência inigualáveis ​​em design de
+          interiores e descubra por que somos a escolha certa para o espaço dos
+          seus sonhos.
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-truck-line"></i></span>
+            <h4>Envio rápido e gratuito</h4>
+            <p>
+              Eleve o seu design de interiores com o nosso serviço de envio
+              rápido e gratuito sem demora.
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-shopping-bag-3-line"></i></span>
+            <h4>Fácil de comprar</h4>
+            <p>
+              Descubra a elegância sem esforço: Explore nossas soluções de
+              design de interiores fáceis de comprar.
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-customer-service-2-line"></i></span>
+            <h4>25/7 Support</h4>
+            <p>
+              Tenha paz de espírito sabendo que nossa equipe dedicada está
+              disponível 24 horas por dia.
+            </p>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-loop-right-line"></i></span>
+            <h4>Devoluções sem complicações</h4>
+            <p>
+              Acreditamos na combinação perfeita e, se não servir, tornamos a
+              devolução dos itens muito fácil
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="choose__image">
+        <img src="img/choose.jpg" alt="img01" />
+      </div>
+    </section>
+    <section class="offer__container" id="offer">
+      <div class="offer__grid__top">
+        <img src="img/offer-1.jpg" alt="offer" />
+        <img src="img/offer-2.jpg" alt="offer" />
+        <img src="img/offer-3.jpg" alt="offer" />
+        <div class="offer__content">
+          <h2 class="section__header">Ofertas inteligentes</h2>
+          <p class="section__subheader">
+            Explore ofertas exclusivas para transformar seu interior com estilo.
+          </p>
+          <button class="btn">Explore Agora</button>
+        </div>
+      </div>
+      <div class="offer__grid__bottom">
+        <img src="img/offer-4.jpg" alt="offer" />
+        <img src="img/offer-5.jpg" alt="offer" />
+        <img src="img/offer-6.jpg" alt="offer" />
+        <img src="img/offer-7.jpg" alt="offer" />
+      </div>
+    </section>
+    <section class="section__container craft__container" id="craft">
+        <div class="craft__content">
+            <h2 class="section__header">Feito com material de excelente qualidade</h2>
+            <p class="section__subheader">
+                Eleve seu espaço com qualidade e estilo.
+            </p>
+            <button class="btn">Explore</button>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="img/craft-1.png" alt="craft">
+                <p>Cadeira Nórdica</p>
+                <h4>R$ 65,00</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="img/craft-2.png" alt="craft">
+                <p>Cadeira de Orelhas</p>
+                <h4>R$ 50,00</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+        </div>
+        <div class="craft__image">
+            <div class="craft__image__content">
+                <img src="img/craft-3.png" alt="craft">
+                <p>Cadeira de Acento</p>
+                <h4>R$ 75,00</h4>
+            </div>
+            <a href="#"><i class="ri-add-line"></i></a>
+        </div>
+    </section>
+    <section class="section__container modern__container" id="modern">
+        <div class="modern__image">
+            <img src="img/dot-bg.png" alt="bg" class="modern__bg">
+            <img src="img/modern-1.jpg" alt="modern" class="modern__img-1">
+            <img src="img/modern-2.jpg" alt="modern" class="modern__img-2">
+            <img src="img/modern-3.jpg" alt="modern" class="modern__img-3">
+        </div>
+        <div class="modern__content">
+            <h2 class="section__header">
+                Nós ajudamos você a projetar um design de interiores moderno.
+            </h2>
+            <p class="section__subheader">
+                Transforme seu espaço com nossa experiência em design de interiores contemporâneo: deixe-nos orientá-lo na criação de interiores elegantes e modernos que reflitam seu gosto e estilo de vida únicos.
+            </p>
+            <div class="modern__grid">
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        Nossa equipe é especializada na criação de projetos de interiores personalizados que adotam uma estética moderna.
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        Estamos na vanguarda das tendências de design, garantindo que seu espaço seja elegante e inovador.
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        O design de interiores moderno não se trata apenas de estética, mas também de funcionalidade e conforto
+                    </p>
+                </div>
+                <div class="modern__card">
+                    <span><i class="ri-checkbox-blank-circle-line"></i></span>
+                    <p>
+                        Cuidamos de todos os aspectos do processo de design, desde o conceito até a aquisição e instalação.
+                    </p>
+                </div>
+            </div>
+            <button class="btn">Explore</button>
+        </div>
+    </section>
+    <section class="section__container testimonial__container" id="testimonial">
+    <h2 class="section__header">Depoimentos</h2>
+    <!-- Slider main container -->
+  <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <div class="testimonial__card">
+        <p>
+          Trabalhar com eles foi um prazer absoluto! Sua expertise em design moderno transformou completamente minha casa em um refúgio contemporâneo. Agora tenho um espaço que não só parece deslumbrante, mas também é incrivelmente confortável. Não poderia estar mais feliz com os resultados.
+        </p>
+        <img src="img/profile-pic-1.jpg" alt="prof1">
+        <h4>Sam William</h4>
+        <h5>CEO, Co-founder</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="testimonial__card">
+        <p>
+          Eu os contratei para renovar nosso espaço de escritório, e os resultados superaram minhas expectativas. Seus conceitos de design inovadores deram vida nova ao nosso local de trabalho, tornando-o funcional e estiloso. A atenção da equipe aos detalhes e o comprometimento com a qualidade são realmente louváveis
+        </p>
+        <img src="img/profile-pic-2.jpg" alt="prof1">
+        <h4>Michelle Anna</h4>
+        <h5>Office Renovator</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="testimonial__card">
+        <p>
+          Eu tinha uma visão de uma casa de inspiração minimalista, e eles a trouxeram à vida perfeitamente. Seus designers entenderam minha estética e incorporaram linhas elegantes e limpas, e uma paleta de cores neutras para criar um oásis sereno. Estou apaixonada pelo meu espaço moderno e sem bagunça!
+        </p>
+        <img src="img/profile-pic-3.jpg" alt="prof1">
+        <h4>Jhon D' Souza</h4>
+        <h5>Banker</h5>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <div class="testimonial__card">
+        <p>
+          O que os diferencia é seu profissionalismo e eficiência. Eles fizeram todo o processo de design sem complicações, desde a consulta inicial até a instalação final. A equipe deles cuidou de tudo, deixando-me com um interior moderno lindamente projetado..!
+        </p>
+        <img src="img/profile-pic-4.jpg" alt="prof1">
+        <h4>David lemes</h4>
+        <h5>Diretor</h5>
+      </div>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+ </section>
+ <section class="section__container blog_container" id="blog">
+  <h2 class="section__header">Blog recente</h2>
+  <div class="blog__grid">
+    <div class="blog__card">
+      <img src="img/blog-1.jpg" alt="blog">
+      <h4>Dominando o minimalismo moderno</h4>
+      <p><span>by</span> DesignSavvySoul <span>on</span>Apr 18th, 2024</p>
+    </div>
+
+    <div class="blog__card">
+      <img src="img/blog-2.jpg" alt="blog">
+      <h4>A fusão de tecnologia e design</h4>
+      <p><span>by</span> ChicNestInteriors<span>on</span> Nov 10th, 2024</p>
+    </div>
+    <div class="blog__card">
+      <img src="img/blog-3.jpg" alt="blog">
+      <h4>Interiores modernos e ecológicos</h4>
+      <p><span>by</span> HomeStyleHarmony <span>on</span> Feb 25th, 2024</p>
+    </div>
+  </div>
+  </h2>
+ </section>
+ <footer class="footer">
+  <div class="section__container footer__container">
+    <div class="footer__content">
+      <h4>Assine para receber as últimas notícias sobre nós</h4>
+      <p>
+        Recomendamos que você assine nosso jornal. Insira seu e-mail para receber nossas atualizações diárias sobre nós.
+      </p>
+    </div>
+    <div class="footer__form">
+      <form action="/">
+        <input type="text" placeholder="Digita seu e-mail">
+        <button>Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="section__container footer__bar">
+    <div class="footer__logo">
+      <h4><a href="#">Ellen | Movéis</a></h4>
+      <p>Copyright © 2024 Web Design Mastery. All rights reserved.</p>
+    </div>
+    <ul class="footer__nav">
+      <li class="footer__link"><a href="#">About</a></li>
+      <li class="footer__link"><a href="#">Parceria</a></li>
+      <li class="footer__link"><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+ </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
